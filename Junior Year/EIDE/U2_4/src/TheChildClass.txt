@@ -1,0 +1,13 @@
+
+public class TheChildClass extends TheParentClass {
+	
+	public TheChildClass(){
+		super(); //Invokes parent constructor.
+	}
+
+	public void hi(){
+		System.out.println("From Child: Hi");
+		super.hi();
+	}
+	
+}
